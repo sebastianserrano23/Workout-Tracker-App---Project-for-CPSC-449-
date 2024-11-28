@@ -13,7 +13,7 @@ app.get('/', (req, res)=>{
         console.log(req);
         res.status(200).send('Welcome to the Track My Fitness App!');
     } catch(error){
-        res.status(404).send('Something went wrong! :(')
+        res.status(404).send('Something went wrong!')
     }
 });
 
